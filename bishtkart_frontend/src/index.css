@@ -35,9 +35,43 @@ a:hover {
   color: #ff8000;
 }
 
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+li {
+  margin-top: 1rem;
+}
+
 h1 {
     font-size: 1.8rem;
     padding: 1rem 0;
+}
+
+button {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 0.1rem solid #a4a4a4;
+  background-color: #f8f8f8;
+  cursor: pointer;
+  font-size: 1.6rem;
+  font-family: Helvetica, Arial, śsans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button:hover {
+  border: 0.1rem solid #404040;
+}
+
+button.primary {
+  background-color: #f0c040;
+}
+
+button.block {
+  width: 100%;
 }
 
 h2 {
@@ -70,12 +104,28 @@ img.medium {
   width: 100%;
 }
 
+img.large {
+  width: 100%;
+}
+
 .row {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+}
+
+.row.top {
+  align-items: flex-start;
+}
+
+.col-1 {
+  flex: 1 1 25rem;
+}
+
+.col-2 {
+  flex: 2 1 50rem;
 }
 
 header a {
@@ -118,4 +168,12 @@ a.brand {
 
 .rating span:last-child {
   color: #404040;
+}
+
+.success {
+  color: #20a020;
+}
+
+.error {
+  color: #a02020;
 }
