@@ -1,0 +1,26 @@
+{
+  "name": "bishtkart",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "bishtkart ecommerce app",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch bishtkart_backend --exec node --experimental-modules bishtkart_backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abishty/bishtkart-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abishty/bishtkart-app/issues"
+  },
+  "homepage": "https://github.com/Abishty/bishtkart-app#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
